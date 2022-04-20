@@ -1,0 +1,40 @@
+body {
+    font-family: 'Square Peg', cursive;
+  }
+  
+  /* Hero Section */
+  
+  #Hero-Section {
+    background-image: url("/assets/img/luces.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Mis trabajos */
+  
+  #mis-habilidades .image-top {
+    height: 10px;
+    background-repeat: no-repeat;
+    background-size:small;
+    background-position: center;
+  }
+  
+  /* Contacto */
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  }
+  
